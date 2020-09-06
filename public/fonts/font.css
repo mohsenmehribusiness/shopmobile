@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'BYekan';
+  src: url('BYekan.eot?#') format('eot'),  /* IE6�8 */
+       url('BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('BYekan.ttf') format('truetype');  /* Saf3�5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BNazanin';
+  src: url('BNazanin.eot?#') format('eot'),  /* IE6�8 */
+       url('BNazanin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('BNazanin.ttf') format('truetype');  /* Saf3�5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BYagut';
+  src: url('BYagut.eot?#') format('eot'),  /* IE6�8 */
+       url('BYagut.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('BYagut.ttf') format('truetype');  /* Saf3�5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+@font-face {
+    font-family: 'BBadr';
+    src: url('BBadr.eot?#') format('eot'),  /* IE6–8 */
+    url('BBadr.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('BBadr.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+    font-family: 'BTitrBold';
+    src: url('BTitrBold.eot?#') format('eot'),  /* IE6–8 */
+    url('BTitrBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('BTitrBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+.BNazanin {
+	font-family: BNazanin, Arial, Helvetica, sans-serif;
+}
+
+.BYekan {
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+}
+
+.BYagut {
+	font-family: BYagut, Arial, Helvetica, sans-serif;
+}
+
+.BBadr {
+    font-family: BBadr, Arial, Helvetica, sans-serif;
+}
+
+* {
+	font-family: BTitrBold, Georgia, Helvetica, sans-serif;
+    font-size: 98%;
+    font-weight:100;
+}
+
+
+.header_progress {
+    position: fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    z-index: +1;
+    width: 100%;
+}
+.progress-container_progress {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}
+
+.progress-bar_progress {
+    height: 47px;
+    background:lightblue;
+    width: 0%;
+}
